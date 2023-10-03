@@ -1,77 +1,99 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EXO Starliners</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 <body>
     <header>
         <nav class="sticky">
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Launches</a></li>
-                <li><a href="#">News</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Order">Order</a></li>
                 <div class="search-bar">
                     <input type="text" placeholder="Spaceflights at...">
                     <button type="submit">SEARCH</button>
                 </div>
             </ul>
-            
         </nav>
-        <h1 class="main-logo">EXO</h1>
-        <h2 class="bottom-logo">Starliners</h2>
-        <section class="video-gallery">
-            <div class="video">
-                <iframe width="960" height="540" src="https://www.youtube.com/embed/921VbEMAwwY" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </section>
-        <h2 class="video-title">Our Mission:</h2>
-        <section class="image-gallery">
-            <div class="image">
-                <img src="image1.jpg" alt="Image 1" width="100" height="100">
-            </div>
-            <div class="image">
-                <img src="image2.jpg" alt="Image 2" width="100" height="100">
-            </div>
-            <div class="image">
-                <img src="image3.jpg" alt="Image 3" width="100" height="100">
-            </div>
-            <div class="image">
-                <img src="image4.jpg" alt="Image 4" width="100" height="100">
-            </div>
-            <div class="image">
-                <img src="image5.jpg" alt="Image 5" width="100" height="100">
-            </div>
-            <div class="image">
-                <img src="image6.jpg" alt="Image 6" width="100" height="100">
-            </div>
-        </section>
-        <section id="services" class="grid-container">
-            <div class="grid-item">
-                <h2>Our Services</h2>
-                <p>Journey to other worlds on our first-rate reusable rockets, or have items shipped interplanetary.</p>
-            </div>
-            <div class="grid-item">
-                <h2>Optional Upgrades</h2>
-                <p>Want to have the entire journey to just your group? Fly in a starship just for you! (Extra fees may apply)</p>
-            </div>
-            <div class="grid-item">
-                <h2>Prices</h2>
-                <p>Lunar flights start at 6k per person.</p>
-                <p>Martian flights start at 36k per person.</p>
-                <p>Contact our service team for discounted flights on cargo starships.</p>
-            </div>
-            <div class="grid-item">
-                <h2>Customer Reviews</h2>
-                <p>"Life changing experience, it really makes you realize how speacial our planet is." - Neil D. Tyson</p>
-                <p>"Our family got to experience the best vacation of all time, shooting for a mars vacation soon! - Ace Kronos</p>
-                <p>"The sunset is otherwordly when your out there. PUN INTENDED >:P" - Jay Tsunami</p>
-            </div>
-        </section>
-        <footer>
-            <div class="footer-content">
-                <div class="footer-item">Credit: Lucas Saner and Nico Diaz | Contact: lsaner720@west-mec.org | ©Copyright 2037 to SpaceX for all content.</div>
-            </div>
-        </footer>
-        <!DOCTYPE html>
-<html>
+    </header>
+    <h1 class="main-logo" id="Home">EXO</h1>
+    <h2 class="bottom-logo">Starliners</h2>
+    <section class="video-gallery">
+        <div class="video">
+            <iframe width="960" height="540" src="https://www.youtube.com/embed/921VbEMAwwY" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <h2 class="video-title" id="Gallery">Our Mission:</h2>
+    <section class="image-gallery">
+        <div class="image">
+            <img src="images/astronauts.jpg" alt="Astronauts working" width="100" height="100">
+        </div>
+        <div class="image">
+            <img src="images/demoChutes.jpg" alt="Demo parachutes" width="100" height="100">
+        </div>
+        <div class="image">
+            <img src="images/moonLanding.jpg" alt="Our rocket on the moon" width="100" height="100">
+        </div>
+        <div class="image">
+            <img src="images/reuseableRockets.jpg" alt="Showcasing reusable rockets" width="100" height="100">
+        </div>
+        <div class="image">
+            <img src="images/rocketLaunch.jpg" alt="A rocket launch at SpaceX" width="100" height="100">
+        </div>
+        <div class="image">
+            <img src="images/spaceshipDock.jpg" alt="The Dragon Spaceship docking to the ISS" width="100" height="100">
+        </div>
+    </section>
+    <section id="Services" class="grid-container">
+        <div class="grid-item">
+            <h2>Our Services</h2>
+            <p>Journey to other worlds on our first-rate reusable rockets, or have items shipped interplanetary.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Optional Upgrades</h2>
+            <p>Want to have the entire journey to just your group? Fly in a starship just for you! (Extra fees may apply)</p>
+        </div>
+        <div class="grid-item">
+            <h2>Prices</h2>
+            <p>Lunar flights start at 6k per person.</p>
+            <p>Martian flights start at 36k per person.</p>
+            <p>Contact our service team for discounted flights on cargo starships.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Customer Reviews</h2>
+            <p>"Life changing experience, it really makes you realize how speacial our planet is." - Neil D. Tyson</p>
+            <p>"Our family got to experience the best vacation of all time, shooting for a mars vacation soon! - Ace Kronos</p>
+            <p>"The sunset is otherwordly when your out there. PUN INTENDED >:P" - Jay Tsunami</p>
+        </div>
+    </section>
+    <section id="Order">
+        <form action="index.html" method="post">
+            <h2>Contact Information</h2>      
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>  
+            <h2>Age</h2>
+            <label><input type="radio" name="age" value="under18"> Under 18</label>
+            <label><input type="radio" name="age" value="18to24"> 18 to 24</label>
+            <label><input type="radio" name="age" value="25to34"> 25 to 34</label>
+            <h2>Preferences</h2>
+            <label><input type="checkbox" name="newsletter" value="subscribe"> Subscribe to newsletter</label>
+            <label><input type="checkbox" name="updates" value="receiveUpdates"> Receive updates</label>
+            <h2>Additional Comments</h2>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-item">Credit: Lucas Saner and Nico Diaz | Contact: lsaner720@west-mec.org, ndiaz413@west-mec.org | ©Copyright 2037 to SpaceX for all content.</div>
+        </div>
+    </footer>
+</body>
+</html>
