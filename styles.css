@@ -104,20 +104,21 @@ header {
 }
 
 /* Styles the search button */
-.search-bar button {
+.search-bar-button {
     background-color: #ff5733; /* Matches the color to the navbar */
     color: #fff;
-    padding: 10px 20px;
     margin-right: 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px; /* Matches the font size of the navbar */
     font-family: modern;
+    width: auto;
+    padding: 8px 10px;
 }
 
 /* Hover effect for the search button */
-.search-bar button:hover {
+.search-bar-button:hover {
     background-color: #ff4500; /* Changes to a slightly different color on hover */
 }
 
@@ -168,7 +169,6 @@ footer {
     justify-content: space-between;
     gap: 20px; 
 }
-
 /* Styles each video container */
 .video {
     flex-basis: calc(33.33% - 20px); 
@@ -186,6 +186,8 @@ footer {
     opacity: 3;
     max-width: 100%; /* Ensures images don't exceed their container's width */
     height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* Styles the image gallery section */
@@ -210,6 +212,7 @@ footer {
     grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
     grid-gap: 20px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20%;
 }
 .grid-item {
     background-color: #2b2b2b;
@@ -227,33 +230,57 @@ form {
 
 label {
     margin-top: 10px;
+    margin-left: 30%;
 }
   
-input, textarea {
+.text-form{
     width: 33%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    margin-left: 30%;
 }
   
-button {
+.bottom-button {
     background-color: #4caf50;
     color: #fff;
     padding: 10px;
     border: none;
     cursor: pointer;
     width: 20%;
+    margin-left: 30%;
+    margin-top: 2rem;
 }
   
-button:hover {
+.bottom-button:hover {
     background-color: #45a049;
+    margin-left: 30%;
 }
 
 .radios {
-    width: min-content;
+    width: fit-content;
+    margin-left: 30%;
 }
 
 .boxes {
     width: fit-content;
+    margin-left: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search-bar input[type="text"] {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+}
+
+.input-box{
+    width: 40%;
+    margin-left: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxes-2{
+    padding-left: -2rem;
 }

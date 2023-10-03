@@ -16,7 +16,7 @@
                 <li><a href="#Order">Order</a></li>
                 <div class="search-bar">
                     <input type="text" placeholder="Spaceflights at...">
-                    <button type="submit">SEARCH</button>
+                    <button type="submit" class="search-bar-button">SEARCH</button>
                 </div>
             </ul>
         </nav>
@@ -24,12 +24,11 @@
     <h1 class="main-logo" id="Home">EXO</h1>
     <h2 class="bottom-logo">Starliners</h2>
     <section class="video-gallery">
+    </section>
+    <section class="image-gallery">
         <div class="video">
             <iframe width="960" height="540" src="https://www.youtube.com/embed/921VbEMAwwY" frameborder="0" allowfullscreen></iframe>
         </div>
-    </section>
-    <h2 class="video-title" id="Gallery">Our Mission:</h2>
-    <section class="image-gallery">
         <div class="image">
             <img src="images/astronauts.jpg" alt="Astronauts working" width="300" height="300">
         </div>
@@ -73,11 +72,11 @@
     </section>
     <section id="Order">
         <form action="index.html" method="post">
-            <h2>Contact Information</h2>      
+            <h2 class="boxes">Contact Information</h2>      
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>      
+            <input type="text" id="name" name="name" class="input-box">      
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>  
+            <input type="email" id="email" name="email" class="input-box">  
             <div class="radios">
                 <h2>Age</h2>
                 <label><input type="radio" name="age" value="under18"> Under 18</label>
@@ -85,13 +84,13 @@
                 <label><input type="radio" name="age" value="25to34"> 25 to 34</label>
             </div>
             <div class="boxes">
-                <h2>Preferences</h2>
+                <h2 class="boxes-2">Preferences</h2>
                 <label><input type="checkbox" name="newsletter" value="subscribe"> Subscribe to newsletter</label>
                 <label><input type="checkbox" name="updates" value="receiveUpdates"> Receive updates</label>
             </div>
-                <h2>Additional Comments</h2>
-                <textarea id="comments" name="comments" rows="4"></textarea>
-                <button type="submit">Submit</button>
+                <h2 class="boxes">Additional Comments</h2>
+                <textarea id="comments" name="comments" rows="4" class="input-box"></textarea>
+                <button type="submit" class="bottom-button">Submit</button>
         </form>
     </section>
     <footer>
