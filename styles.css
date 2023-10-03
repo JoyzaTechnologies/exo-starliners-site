@@ -222,6 +222,7 @@ footer {
 form {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 label {
@@ -229,7 +230,7 @@ label {
 }
   
 input, textarea {
-    width: 100%;
+    width: 33%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -242,9 +243,17 @@ button {
     padding: 10px;
     border: none;
     cursor: pointer;
+    width: 20%;
 }
   
 button:hover {
     background-color: #45a049;
 }
 
+.radios {
+    width: min-content;
+}
+
+.boxes {
+    width: fit-content;
+}

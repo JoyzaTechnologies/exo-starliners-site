@@ -78,16 +78,20 @@
             <input type="text" id="name" name="name" required>      
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>  
-            <h2>Age</h2>
-            <label><input type="radio" name="age" value="under18"> Under 18</label>
-            <label><input type="radio" name="age" value="18to24"> 18 to 24</label>
-            <label><input type="radio" name="age" value="25to34"> 25 to 34</label>
-            <h2>Preferences</h2>
-            <label><input type="checkbox" name="newsletter" value="subscribe"> Subscribe to newsletter</label>
-            <label><input type="checkbox" name="updates" value="receiveUpdates"> Receive updates</label>
-            <h2>Additional Comments</h2>
-            <textarea id="comments" name="comments" rows="4"></textarea>
-            <button type="submit">Submit</button>
+            <div class="radios">
+                <h2>Age</h2>
+                <label><input type="radio" name="age" value="under18"> Under 18</label>
+                <label><input type="radio" name="age" value="18to24"> 18 to 24</label>
+                <label><input type="radio" name="age" value="25to34"> 25 to 34</label>
+            </div>
+            <div class="boxes">
+                <h2>Preferences</h2>
+                <label><input type="checkbox" name="newsletter" value="subscribe"> Subscribe to newsletter</label>
+                <label><input type="checkbox" name="updates" value="receiveUpdates"> Receive updates</label>
+            </div>
+                <h2>Additional Comments</h2>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+                <button type="submit">Submit</button>
         </form>
     </section>
     <footer>
